@@ -1,0 +1,6 @@
+include ':data-remote'
+include ':data-local'
+include ':usecases'
+include ':domain'
+include ':app'
+rootProject.name = "cleanapp"
