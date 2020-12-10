@@ -41,10 +41,10 @@ android {
 
     defaultConfig {
         applicationId "com.thilawfabrice.cleanapp"
-        minSdkVersion minSdk
-        targetSdkVersion targetSdk
-        versionCode versionCodeMajor * 10000 + versionCodeMinor * 100 + versionCodePatch
-        versionName versionName
+        minSdkVersion rootProject.ext.minSdk
+        targetSdkVersion rootProject.ext.targetSdk
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
