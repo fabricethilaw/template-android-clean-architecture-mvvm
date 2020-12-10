@@ -10,9 +10,10 @@ ext {
     buildTools = "30.0.2"
 
     // App Versioning
-    versionCodeMajor = 2
-    versionCodeMinor = 1
-    versionCodePatch = 4
+    versionCodeMajor = 0
+    versionCodeMinor = 0
+    versionCodePatch = 1
+    versionCode = versionCodeMajor * 10000 + versionCodeMinor * 100 + versionCodePatch
     versionName = "$versionCodeMajor.$versionCodeMinor.$versionCodePatch"
 
     // Dependencies Version - Presentation (corresponds to app module)
