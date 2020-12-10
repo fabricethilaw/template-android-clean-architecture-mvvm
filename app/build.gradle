@@ -99,6 +99,8 @@ dependencies {
     implementation appDependencies.supportV4
     implementation appDependencies.fragmentKtx
     implementation appDependencies.lifecycleExtensions
+    implementation appDependencies.navigationUiKtx
+    implementation appDependencies.navigationFragmentKtx
 
     //  Material
     implementation appDependencies.material
@@ -113,6 +115,7 @@ dependencies {
     //  Animations
     implementation appDependencies.recyclerviewAnimations
 
+    //
     //  Memory leaks
     debugImplementation appDependencies.leakCanary
 

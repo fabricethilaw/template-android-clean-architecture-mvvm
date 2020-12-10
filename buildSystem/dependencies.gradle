@@ -24,6 +24,8 @@ ext {
     materialVersion = '1.3.0-alpha04'
     analyticsVersion = '18.0.0'
     fragmentKtxVersion = '1.2.5'
+    navigationFragmentKtx = '2.2.2'
+    navigationUiKtx = '2.2.2'
     leakCanaryVersion = '2.0'
     koinVersion = '2.1.5'
     crashlyticsVersion = '17.3.0'
@@ -78,7 +80,9 @@ ext {
             koinAndroidViewModel  : "org.koin:koin-androidx-viewmodel:$koinVersion",
             stetho                : "com.facebook.stetho:stetho:$stethoVersion",
             kiel                  : "me.ibrahimyilmaz:kiel:$kielVersion",
-            connectivity          : "com.fabricethilaw.sonarnet:core:$sonarnetVersion"
+            connectivity          : "com.fabricethilaw.sonarnet:core:$sonarnetVersion",
+            navigationFragmentKtx : "androidx.navigation:navigation-fragment-ktx:$navigationFragmentKtx",
+            navigationUiKtx         : "androidx.navigation:navigation-ui-ktx:$navigationUiKtx"
     ]
 
     dataDependencies = [
@@ -97,7 +101,6 @@ ext {
 
     usecasesDependencies = [
             kotlin        : "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion",
-            // coroutinesCore: "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesCoreVersion"
     ]
 
     testDependencies = [
